@@ -1,12 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
 html {
   box-sizing: border-box;
+}
+
+h2 {
+  margin: 6px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 body {
   margin: 0;
   background: grey;
   overflow-x: hidden;
-  font-family: Verdana, sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 1rem;
   line-height: 1.8rem;
   background-image: url(stars.jpg);
@@ -47,22 +56,22 @@ body {
 }
 
 .background {
-  background: whitesmoke;
+  background: rgb(141, 241, 226);
   position: fixed;
   right: 0;
   width: 100%;
-  height: 60px;
+  height: 125px;
   z-index: -1;
 }
 
 .clickable {
-  color: rgb(171, 87, 250);
+  color: rgb(21, 84, 82);
   cursor: pointer;
   user-select: none;
 }
 
 .clickable:hover {
-  color: rgb(117, 37, 193);
+  color: rgb(62, 132, 153);
 }
 
 /* Images Container */
